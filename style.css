@@ -1,0 +1,24 @@
+body {
+	background-color: #ddd;
+}
+h1 {
+	margin-left: 55px;
+}
+.line-block {
+	margin-left: 55px;
+}
+ul li {
+	display: inline-block;
+	margin: 20px 25px;
+}
+a {
+	color: #000;
+	font-size: 20px;
+	margin: 25px;
+}
+a:hover {
+	color: #f00;
+}
+.social {
+	margin-left: 55px;
+}
