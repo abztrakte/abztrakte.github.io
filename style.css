@@ -1,0 +1,298 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+body {
+	background: url(andre-benz.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Ubuntu', sans-serif;
+}
+header {
+	padding: 5px 30px;
+	background-color: rgba(255,255,255,.6);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 80px;
+	border-radius: 50%;
+	filter: grayscale(1);
+}
+.social ul li {
+	display: inline-block;
+	padding: 5px;
+}
+.social img {
+	width: 45px;
+	border-radius: 50%;
+	background-color: orange;
+}
+.social img:hover {
+	border: 2px solid orange;
+}
+.social a {
+	text-decoration: none;
+	color: #000;
+}
+.btn {
+	text-decoration: none;
+	color: orange;
+	font-size: 25px;
+	border: 1px solid orange;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+.btn:hover {
+	background-color: orange;
+	color: #000;
+}
+.main {
+	min-height: 500px;
+	height: 600px;
+	background-color: rgba(0,0,0,.5);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.name {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.name h1 {
+	font-size: 6vw;
+	margin-bottom: 30px;
+	color: #fff;
+	text-shadow: 2px 2px 5px #000;
+}
+.name p {
+	font-size: 4vw;
+	color: #fff;
+	margin-bottom: 40px;
+	text-shadow: 2px 2px 5px #000;
+}
+.service {
+	background-color: #fff;
+	padding: 45px 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.service h3 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	color: #000;
+}
+.service ul li {
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.tools ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.tools img {
+	width: 120px;
+	border: 1px solid black;
+	background-color: orange;
+	border-radius: 10px;
+}
+.title {
+	background-color: #fff;
+	padding: 30px 0 65px 0;
+	text-align: center;
+}
+.title h3 {
+	font-size: 35px;
+	color: orange;
+	margin-bottom: 15px;
+}
+.title p {
+	font-size: 20px;
+}
+.title .btn {
+	font-size: 16px;
+	padding: 2px 5px;
+}
+.portfolio {
+	background-color: #fff;
+	padding: 15px 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	-ms-align-items: center;
+	align-items: center;
+}
+.item {
+	width: 200px;
+	height: 300px;
+	border: 1px solid orange;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	background-color: #ddd;
+	margin-bottom: 15px;
+}
+.item1 {
+	background: url(s-mobile.png) no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.item2 {
+	background: url(booksharing.png) no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.item3 {
+	background: url(blog.jpg) no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.item4 {
+	background: url(bsk.png) no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.item5 {
+	background: url(trandly.png) no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.item6 {
+	background: url(photoprofi.png) no-repeat; 
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.item .btn {
+	background-color: orange;
+	color: #000;
+	border: 0;
+}
+.item .btn:hover {
+	color: #fff;
+	background-color: #000;
+}
+.contacts {
+	background-color: #fff;
+	padding: 15px 30px 30px 30px;
+	text-align: center;
+}
+.contacts h3 {
+	font-size: 30px;
+	text-align: center;
+	color: orange;
+	margin-bottom: 30px;
+}
+.contacts p {
+	margin: 30px 0;
+	font-size: 20px;
+}
+
+footer {
+	background-color: #000;
+	height: 60px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 5px 0;
+}
+.copy p {
+	font-size: 16px;
+	color: orange;
+}
+.copy a {
+	color: #fff;
+	text-decoration: none;
+}
+.copy a:hover {
+	color: orange;
+}
+
+@media (max-width: 1200px) {
+	.service {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding: 15px 5px;
+	}
+	.tools img {
+		width: 40px;
+		margin: 0;
+	}
+	header {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+		padding: 10px 0;
+	}
+	.social img {
+		width: 30px;
+	}
+	.portfolio {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+}
